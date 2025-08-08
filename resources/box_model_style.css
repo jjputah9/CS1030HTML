@@ -1,0 +1,54 @@
+/*
+  white: #FFFFFF
+  Primary (green): #009900
+  Accent1: #208925
+  Direct Complement: #892084
+  Accent2: #892084
+*/
+
+h1 {
+	color: #208925;
+	text-align: center;
+}
+
+th, td{
+	border: #892084 solid 2px;
+	font-weight: bold;
+	padding: 16px 8px 8px 12px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+a.text{
+	color: #208925;
+	font-weight: bold;
+	text-decoration: none
+}
+
+a.text:hover{
+	color: #892084
+}
+
+p.content{
+	display: block;
+	color: white;
+	width: 200px;
+	padding: 24px 12px 12px 24px;
+	border: #892084 dashed 4px;
+	margin: 20px 20px 20px 20px;
+}
+
+div{
+	background-color: #208925;
+	width: 646px;
+	padding: 25px 25px 25px 25px;
+	border: #892084 dotted 4px;
+	margin: 10px 10px 10px 10px;
+}
+
+body{
+	padding: 10px 10px 10px 10px;
+	font-size: 1.1em;
+}
