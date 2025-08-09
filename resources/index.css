@@ -1,0 +1,53 @@
+body {
+color: #F0F0F0;
+background-color: #121212;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.cat {
+	text-align: center;
+	color: #DFFE00;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+p.desc {
+	font-weight: bold;
+	font-size: 32px;
+	text-align: justify;
+	background: linear-gradient(to right, red, orange, yellow, green, blue, 
+	indigo, violet);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+a.desc {
+	color: inherit;
+	text-decoration: underline;
+}
+
+div.center {
+	text-align: center;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+a.textLink:hover {
+	color: #DFFE00;
+}
+
+td, th {
+	border: solid #1e88e5 2px;
+}
+
+table {
+	border-collapse: collapse;
+}
